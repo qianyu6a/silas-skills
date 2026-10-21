@@ -40,6 +40,12 @@ hermes skills install "https://raw.githubusercontent.com/qianyu6a/silas-skills/m
 
 或手动：把 `skills/<技能名>/` 目录整个复制进你的 Hermes 技能目录。
 
+## 用法
+
+完整操作说明见 **[USAGE.md](USAGE.md)**：触发话术、三道闸门、7 步流水线、产物结构、断点续跑、五个常见坑。
+
+一句话版本：把文件发过去，说「用一盏神灯蒸馏这本书」，闸门过了它一路跑到底，产物在 `技能包/`（英文版是 `skills/`）。
+
 其他支持 SKILL.md 的 agent（Claude Code、Cursor、Codex CLI 等）也能加载。差别在并行度：本方法靠五路子代理并行提取，单线程 agent 上会退化成串行——产物相同，耗时更长。
 
 ## 结构
