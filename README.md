@@ -53,7 +53,7 @@ hermes skills install "https://raw.githubusercontent.com/qianyu6a/silas-skills/m
 ```
 skills/
   yizhan-shendeng/          # 中文版
-    SKILL.md                # 主流程（9 步流水线）
+    SKILL.md                # 主流程（8 步流水线）
     references/             # 提取器、模板、实战手册、校验口径
     scripts/                # 候选摘录逐字校验工具
   book-to-skill-distiller/  # 英文版（同一方法的英文实现）
